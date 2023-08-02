@@ -26,6 +26,7 @@ export const Footer = () => {
       contrib: 'https://github.com/RianVitor26/react-menu/graphs/contributors'
     },
     github: 'https://github.com/RianVitor26',
+    site: 'https://rianvitor26dos-santos-de-almeida.vercel.app/'
   }
 
   return (
@@ -74,7 +75,7 @@ export const Footer = () => {
             <a target="_blank" href={as.contacts.discord} className="text-2xl text-gray-500"><FaDiscord/></a>
         </div>
         <div className="w-full">
-              <p className="text-gray-500 text-center py-5">2023 Cardápio UI, <a target="_blank" href={as.github}>RianVitor26</a></p>
+              <p className="text-gray-500 text-center py-5">2023 Cardápio UI, <a target="_blank" href={as.site} className="hover:text-orange-500">RianVitor26</a></p>
         </div>
     </div>
     </footer>
