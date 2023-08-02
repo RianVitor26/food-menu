@@ -56,18 +56,18 @@ export const Footer = () => {
         </div>
         <div className="w-full mb-16">
               <h4 className="mb-3 font-bold text-orange-700">Inscreva-se na nossa newslatter</h4>
-              <h5 className="mb-6 font-semibold text-gray-400">Receba informações exclusivas sobre promoções de comidas e bebidas que agradam o seu paladar!</h5>
-              <input type="text" placeholder="Insira seu email" className="w-full px-5 py-2 border border-slate-300 mb-3 rounded-md  md:max-w-md"/>
-              <button className="w-full text-center font-bold bg-black text-gray-200 px-5 py-2 rounded-md md:max-w-md">Inscrever-se</button>
+              <h5 className="mb-6 font-semibold text-gray-500">Receba informações exclusivas sobre promoções de comidas e bebidas que agradam o seu paladar!</h5>
+              <input type="text" placeholder="Insira seu email" className="w-full px-5 py-2 bg-transparent border border-gray-400 mb-3 rounded-md  md:max-w-md"/>
+              <button className="w-full text-center font-bold bg-orange-700 text-gray-200 px-5 py-2 rounded-md md:max-w-md">Inscrever-se</button>
         </div>
         <div className="w-full h-fit flex items-center justify-center gap-5 mb-5 md:justify-start">
-            <a target="_blank" href={as.github} className="text-2xl text-gray-400"><FaGithub/></a>
-            <a target="_blank" href={as.contacts.linkedin} className="text-2xl text-gray-400"><FaLinkedin/></a>
-            <a target="_blank" href={as.contacts.gmail} className="text-2xl text-gray-400"><BiLogoGmail/></a>
-            <a target="_blank" href={as.contacts.discord} className="text-2xl text-gray-400"><FaDiscord/></a>
+            <a target="_blank" href={as.github} className="text-2xl text-gray-500"><FaGithub/></a>
+            <a target="_blank" href={as.contacts.linkedin} className="text-2xl text-gray-500"><FaLinkedin/></a>
+            <a target="_blank" href={as.contacts.gmail} className="text-2xl text-gray-500"><BiLogoGmail/></a>
+            <a target="_blank" href={as.contacts.discord} className="text-2xl text-gray-500"><FaDiscord/></a>
         </div>
         <div className="w-full">
-              <p className="text-gray-400 text-center py-5">2023 Hotel UI, <a target="_blank" href={as.github}>RianVitor26</a></p>
+              <p className="text-gray-500 text-center py-5">2023 Cardápio UI, <a target="_blank" href={as.github}>RianVitor26</a></p>
         </div>
     </footer>
   )
