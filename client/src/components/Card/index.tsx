@@ -6,13 +6,21 @@ import {
     Typography,
     Button,
   } from "@material-tailwind/react";
+
+  interface ICardProps {
+    title: string,
+    image: string,
+    price: number
+  }
    
-  export const FoodCard = () => {
+  export const FoodCard = ({title, image, price}: ICardProps) => {
+
+
     return (
       <Card className="w-11/12">
-        <CardHeader shadow={false} floated={false} className="h-60 overflow-hidden">
+        <CardHeader shadow={false} floated={false} className="h-72 overflow-hidden">
           <img
-            src="https://images.unsplash.com/photo-1629367494173-c78a56567877?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=927&q=80"
+            src={image}
             alt="card-image"
             className="h-full w-full object-cover hover:scale-150 cursor-zoom-in transition-all duration-300"
           />
@@ -20,10 +28,10 @@ import {
         <CardBody className="p-2 bg-neutral-950">
           <div className="mb-2 flex items-center justify-between bg-transparent">
             <Typography color="white" className="font-medium">
-              Strogonoff
+              {title}
             </Typography>
             <Typography color="white" className="font-medium">
-              $95.00
+              ${price}
             </Typography>
           </div>
         </CardBody>
