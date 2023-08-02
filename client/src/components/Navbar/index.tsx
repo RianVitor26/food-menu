@@ -1,4 +1,8 @@
 import { IoFastFood } from 'react-icons/io5'
+import { GiKnifeFork } from 'react-icons/gi'
+
+import { Contact } from '../Contact'
+
 
 export const Navbar = () => {
   return (
@@ -6,8 +10,8 @@ export const Navbar = () => {
         <span className="text-white font-cursive text-2xl border-b-2 border-b-orange-400 font-semibold">Food menu</span>
         <ul className="hidden items-center gap-5 sm:flex">
               <li><a className="flex items-center gap-2 text-gray-50 font-normal hover:text-orange-300 transition-all duration-500" href="/"><IoFastFood className="text-xl"/> Comidas e bebidas</a></li>
-              <li><a className="flex items-center gap-2 text-gray-50 font-normal hover:text-orange-300 transition-all duration-500" href="/"><IoFastFood className="text-xl"/>Sobre</a></li>
-              <li><a className="flex items-center gap-2 text-gray-50 font-normal hover:text-orange-300 transition-all duration-500"href="/"><IoFastFood className="text-xl"/> Contato</a></li>
+              <li><a className="flex items-center gap-2 text-gray-50 font-normal hover:text-orange-300 transition-all duration-500" href="/"><GiKnifeFork className="text-xl"/>Pedidos</a></li>
+              <li><Contact/></li>
         </ul>
     </nav>
   )

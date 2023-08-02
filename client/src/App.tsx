@@ -11,7 +11,7 @@ function App() {
         <Navbar />
         <Header/>
         <main className="max-w-4xl w-11/12 px-5 pt-5 mx-auto my-20">
-            <h2 className="text-center font-normal text-4xl font-cursive text-orange-500">Pratos variados</h2>
+            <h2 className="text-center font-normal text-3xl font-cursive text-orange-500">Pratos variados</h2>
             <h1 className="text-center font-semibold uppercase text-3xl tracking-widest text-gray-50 mb-5">Saboroso</h1>
             <p className="text-gray-200 text-center mb-20">Uma sinfonia de sabores em cada prato, onde a diversidade gastronômica encontra o deleite dos paladares, proporcionando uma experiência inigualável que fará sua boca se render à tentação em cada mordida.</p>
             
