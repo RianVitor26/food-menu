@@ -29,7 +29,8 @@ export const Footer = () => {
   }
 
   return (
-    <footer className="max-w-4xl w-11/12 px-5 pt-5 mx-auto mt-52">
+    <footer className="bg-black w-full">
+        <div className="max-w-4xl w-11/12 px-5 pt-5 mx-auto mt-52">
         <div className="w-full grid grid-cols-2 grid-rows-2 gap-x-3 gap-y-5 mb-20 sm:grid-cols-3 sm:grid-rows-2  md:grid-cols-4 md:grid-rows-1">
             <div className="flex flex-col gap-3 h-fit">
                 <span className="pb-4 font-bold text-orange-600">Contatos</span>
@@ -75,6 +76,7 @@ export const Footer = () => {
         <div className="w-full">
               <p className="text-gray-500 text-center py-5">2023 Cardápio UI, <a target="_blank" href={as.github}>RianVitor26</a></p>
         </div>
+    </div>
     </footer>
   )
 }
