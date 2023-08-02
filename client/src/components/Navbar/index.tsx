@@ -11,7 +11,7 @@ export const Navbar = () => {
         <ul className="hidden items-center gap-5 sm:flex">
               <li><a className="flex items-center gap-2 text-gray-50 font-normal hover:text-orange-300 transition-all duration-500" href="/"><IoFastFood className="text-xl"/> Comidas e bebidas</a></li>
               <li><a className="flex items-center gap-2 text-gray-50 font-normal hover:text-orange-300 transition-all duration-500" href="/"><GiKnifeFork className="text-xl"/>Pedidos</a></li>
-              <li><Contact/></li>
+              <Contact/>
         </ul>
     </nav>
   )

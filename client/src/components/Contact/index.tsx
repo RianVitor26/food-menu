@@ -18,12 +18,12 @@ export const Contact = () => {
       <li className="flex items-center gap-2 text-gray-50 font-normal hover:text-orange-300 transition-all duration-500 cursor-pointer"><FaPhone className="text-xl"/> Contatos</li>
       </PopoverHandler>
       <PopoverContent className="w-72 p-3 bg-neutral-950 border-none">
-        <div className="mb-4 flex items-center gap-4 border-b border-gray-400 pb-4">
+        <div className="mb-4 flex items-center gap-4 border-b border-orange-400 pb-4">
           <div>
-            <Typography variant="h6" className="text-gray-100">
+            <Typography className="text-orange-400 font-cursive text-3xl">
               Contatos
             </Typography>
-            <Typography variant="small" className="text-gray-100">
+            <Typography variant="small" className="text-gray-300">
               Converse comigo!
             </Typography>
           </div>
