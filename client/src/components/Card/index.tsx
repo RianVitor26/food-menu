@@ -4,8 +4,8 @@ import {
     CardBody,
     CardFooter,
     Typography,
-    Button,
   } from "@material-tailwind/react";
+
 
   interface ICardProps {
     title: string,
@@ -36,13 +36,7 @@ import {
           </div>
         </CardBody>
         <CardFooter className="p-2 bg-neutral-950">
-          <Button
-            ripple={false}
-            fullWidth={true}
-            className="bg-orange-700 text-gray-50 p-2"
-          >
-            Fazer pedido
-          </Button>
+            <button className="bg-orange-700 p-3 text-white w-full">Fazer pedido</button>
         </CardFooter>
       </Card>
     );
